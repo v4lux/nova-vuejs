@@ -1,0 +1,24 @@
+{
+    "identifier": "v4lux.novavuejs",
+    "name": "novavuejs",
+    "vendor": "v4lux",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": ["languages"],
+
+    "main": "main.dist.js",
+
+    "entitlements": {
+        "process": true,
+        "filesystem": "readonly"
+    },
+    
+    "config": [
+        {
+            "key": "example.language-server-path",
+            "title": "Language Server Path",
+            "type": "path",
+            "placeholder": "/usr/local/bin/example"
+        }
+    ]
+}

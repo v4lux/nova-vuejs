@@ -1,0 +1,23 @@
+{
+  "name": "nova-vuejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup -c",
+    "watch": "onchange -i \"src/**/*.js\" -- npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nova-npm-executable": "^0.1.0",
+    "vue-language-server": "0.0.67"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "onchange": "^6.1.0",
+    "rollup": "^1.31.0"
+  }
+}
