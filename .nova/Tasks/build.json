@@ -1,0 +1,7 @@
+{
+  "script" : "npm run build",
+  "actions" : [
+    "build"
+  ],
+  "identifier" : "8F79CBCE-16BB-4D58-8603-C6F2A5CA0AB0"
+}

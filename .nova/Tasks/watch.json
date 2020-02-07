@@ -1,0 +1,7 @@
+{
+  "script" : "npm run watch",
+  "actions" : [
+    "run"
+  ],
+  "identifier" : "E9B5CC97-CC71-4D53-BB3B-ADBF150FDB63"
+}
